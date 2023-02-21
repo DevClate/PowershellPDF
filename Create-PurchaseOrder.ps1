@@ -10,9 +10,9 @@ param (
     [Parameter(HelpMessage='Description of PO')]
     [string]$Description,
 
-    $FilePath1 = "C:\Accounting\PO\2022\$PoNumber $Vendor $Description\$PoNumber $Vendor $Description.pdf",
-    $FilePath2 = "C:\Accounting\PO\2022\$PoNumber $Vendor $Description\Quote.pdf",
-    $OutputFile = "C:\Accounting\PO\2022\$PoNumber $Vendor $Description\$PoNumber $Vendor $Description PO.pdf", # Shouldn't exist / will be overwritten
+    $FilePath1 = "C:\Accounting\PO\2023\$PoNumber $Vendor $Description\$PoNumber $Vendor $Description.pdf",
+    $FilePath2 = "C:\Accounting\PO\2023\$PoNumber $Vendor $Description\Quote.pdf",
+    $OutputFile = "C:\Accounting\PO\2023\$PoNumber $Vendor $Description\$PoNumber $Vendor $Description PO.pdf", # Shouldn't exist / will be overwritten
 
     [Parameter()]
     [ValidateNotNull()]
